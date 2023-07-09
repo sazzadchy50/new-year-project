@@ -13,6 +13,7 @@
   font-weight: 600;
   padding: 20px 25px;
   cursor: pointer;
+  border: 0;
 }
 
 /* header related styles */
@@ -122,21 +123,80 @@ main {
 
 /* Contact section styles */
 .contact-section {
-  background-image: url("../images/watch.png"), url('../images/gradient1.png');
-  background-blend-mode:luminosity;
+  background-image: url("../images/watch.png"), url("../images/gradient1.png");
+  background-blend-mode: luminosity;
   max-height: 300px;
-  margin-bottom: 400px;
-
+  margin-bottom: 130px;
 }
-.contact-content{
- 
+.contact-content {
   padding: 60px 0 60px 60px;
 }
 .contact-content .contact-title {
-  color: #fff; 
+  color: #fff;
   font-size: 40px;
   font-weight: 700;
   padding-bottom: 24px;
+}
 
+/* Footer section styles */
 
+.footer {
+  background: #151414;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 130px 0;
+}
+
+.footer-left-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 15px
+}
+
+.footer-description {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 480px;
+}
+.footer-email,
+.footer-phone {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.footer-icon {
+  margin-top: 32px;
+}
+.footer-subscribe {
+  font-size: 25px;
+  font-weight: 600;
+}
+.footer-email-submit {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  color: #f3f3f3;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px;
+  
+  background: #151414;
+  margin: 30px 0 20px 0;
+}
+
+#submit {
+  display: block;
+  border-radius: 8px;
+  background: #005fac;
+  color: #fff;  
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 25px;
+  border: 0;
+  
 }
