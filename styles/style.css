@@ -116,8 +116,27 @@ main {
   padding: 10px 0;
 }
 .my-plan-description {
-  color:  #737272;  
+  color: #737272;
   font-size: 25px;
+}
+
+/* Contact section styles */
+.contact-section {
+  background-image: url("../images/watch.png"), url('../images/gradient1.png');
+  background-blend-mode:luminosity;
+  max-height: 300px;
+  margin-bottom: 400px;
+
+}
+.contact-content{
  
+  padding: 60px 0 60px 60px;
+}
+.contact-content .contact-title {
+  color: #fff; 
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 24px;
+
 
 }
